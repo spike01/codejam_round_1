@@ -9,6 +9,6 @@ describe PalindromeFinder do
   end
 
   it 'extracts the palindromes from a text file' do
-    expect(subject.extract('./palindromes')).to eq(95)
+    expect(subject.extract('./palindromes')).to eq 95 
   end
 end
